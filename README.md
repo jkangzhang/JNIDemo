@@ -291,8 +291,6 @@ Java_com_ikouz_jnidemo_MainActivity_jniGetConfigList(JNIEnv* env, jobject obj) {
 
 JNI中在处理较复杂的类型时，需要特别注意变量类型、返回值及包名的问题；大量的反射会给代码造成程序的健壮性变差，而且JNI层的代码不易于调试，因此建议加入必要的判断及异常情况日志。
 
-源码地址
-
 --- 
 参考文章：
 
